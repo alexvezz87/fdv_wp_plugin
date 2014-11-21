@@ -1,0 +1,199 @@
+/* 
+    Document   : style.css
+    Created on : 7-nov-2013, 22.37.56
+    Author     : Alex Soluzioni Web
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#container-form {width: 100%;}
+#container-form form div {float:left; }
+.table-form td{width:160px; padding:5px}
+.table-form input, .table-form-indirizzo input {height:30px}
+
+.table-form-indirizzo td{padding:5px}
+.table-form-indirizzo #ind-via {width:300px; height:30px}
+
+.prodotto{border-radius:15px; min-height:80px}
+
+#errors_field{color:red; padding:40px; border:solid 2px red; font-weight: bold }
+#right_insert{color:green; padding:40px; border:solid 2px green; font-weight: bold }
+
+#contenitore-cassette{width:100%; display: block; margin-left: auto; margin-right: auto; }
+
+#contenitore-cassette .cassetta{float:left; margin:5px; width:32.1%; margin-bottom:10px; }
+
+#contenitore-cassette .cassetta img {width:70%; border:0; margin:0; padding:0; margin-left:15%; margin-right: auto}
+#contenitore-cassette .cassetta div {text-align:center}
+#contenitore-cassette .cassetta div span {font-size:1.5em}
+#contenitore-cassette .cassetta div form {margin-top:10px}
+#contenitore-cassette .cassetta div form table {width:100%}
+.td-right{text-align:right}
+.td-right input { margin:0; padding:0}
+.td-right span {font-size:1.2em; font-weight:bold}
+.qt-cassetta{text-align:right; width:50px; padding:0; margin:0; bottom:0}
+input.aggiungi{padding:10px; border-radius: 5px; font-family: Arial; font-weight: bold; color:#777}
+input.aggiungi-sconto {padding:5px; border-radius: 5px; font-family: Arial; font-weight: bold; color:#777; font-size:0.9em}
+
+h2 {text-align:center}
+
+#cassetta-vuota {width:100%; display: block; margin-left: auto; margin-right: auto;}
+#cassetta-vuota div {float:left; margin:2px;}
+#cassetta-vuota div img {padding:0; margin:0; border:0; margin-left:2.5px;}
+
+#visulizza-carrello{padding:25px; border:solid 2px forestgreen; border-radius: 15px}
+#visulizza-carrello .titolo-carrello {font-size:1.8em; font-weight:bold}
+
+.visualizza-cassetta-personalizzata{float:left; margin:5px; padding:10px;}
+.visualizza-cassetta-preparata{float:left; margin:5px; padding:10px;}
+.visualizza-cassetta-preparata form {margin:0; padding:0; border:0}
+.visualizza-cassetta-preparata img {height:100px; margin-right:auto; margin-left:auto; display:block; margin-bottom: 10px}
+
+.visualizza-prodotto{float:left; margin:5px; padding:10px; max-width:150px}
+.visualizza-prodotto form {margin:0; padding:0; border:0}
+.visualizza-prodotto img {height:60px; float:left;}
+
+.visualizza-prodotto .descrizione{font-size:1em; float:left; margin-left:10px; margin-top:10px; margin-right:10px}
+
+#visualizza-destinatario {padding:25px; border:solid 2px black; margin-top:20px; border-radius: 15px }
+
+#ordine-registrato-ok{padding:25px; border:solid 2px green; margin-top:20px; font-weight: bold; color: green}
+#ordine-registrato-ko{padding:25px; border:solid 2px red; margin-top:20px; font-weight: bold; color:red}
+
+#totale-ordine{float:none; clear:both; width:100%; text-align:right; font-size:1.4em; padding-top:20px}
+
+#admin-gestione-ordine{margin-top:30px; border:2px black solid; padding:20px; width:50%; margin-left:50px; font-size:1.4em}
+#admin-gestione-ordine form{margin-top:30px}
+
+#contenitore-guida{width:100%}
+#contenitore-guida div {float:left; text-align:center}
+
+#contenitore-guida .step {width:20%; padding:1%; margin:1%; border:3px solid lightgray; min-height: 135px; border-radius:15px; color: lightgray}
+.step h3, .step h4 {color:lightgray}
+#contenitore-guida .active {border:3px solid green; color:#000}
+.active h3, .active h4 {color:#000}
+
+#contenitore-guida div h4 {border:0; padding:0; margin:0; font-weight:bold; border-bottom:1px lightgray dashed; font-size:1.3em}
+#contenitore-guida div h3 { padding:0; margin:0; font-weight:bold; font-size:2em}
+#contenitore-guida div p {margin-top:10px}
+
+
+#frutta-verdura {width:100%; display: block; margin-left: auto; margin-right: auto; line-height: 15px; font-size:1.3em; margin-top:20px}
+#frutta-verdura .tipologia-frutta-verdura {width:100%; display: block; margin-left: auto; margin-right: auto}
+#frutta-verdura .tipologia-frutta-verdura div {float:left; width:30%; padding:0.75%; margin:0.75%; }
+.tipologia-frutta-verdura h4 {height:20px;}
+.tipologia-frutta-verdura form {margin:0; padding:0;}
+
+.pari table{width:100%;  border-collapse: separate; color:#777;}
+.dispari table{width:100%;  border-collapse: separate; color: forestgreen;}
+
+
+.fv-immagine-prodotto {background:  url(griglia_fv.png); position:relative; min-width:85px; min-height: 55px; border-radius: 15px;}
+.ac-immagine-prodotto {background:  url(griglia_ac.png); position:relative; min-width:86px; min-height: 55px; border-radius: 15px;}
+/*.td-immagine{background:#fff; width:60px; max-height:50px; border-radius: 15px;  border:2px forestgreen solid;} */
+.td-titolo{font-size:0.8em}
+
+#altre-aggiunte {width:100%; display: block; margin-left: auto; margin-right: auto; line-height: 15px; font-size:1.3em }
+#altre-aggiunte .tipologia-aggiunta-cassetta{width:100%; display: block; margin-left: auto; margin-right: auto; }
+#altre-aggiunte .tipologia-aggiunta-cassetta div {float:left; width:30%; padding:0.75%; margin:0.75%;}
+.tipologia-aggiunta-cassetta form {margin:0; padding:0;}
+
+.pari{background:#A7CD33; background:rgba(167,205,51,0.5); box-shadow:-2px -2px 2px forestgreen inset; color:#777; }
+.dispari{background:#EBEBEB; background:rgba(235,235,235,0.6); box-shadow:-2px -2px 2px #777 inset; color: forestgreen;}
+
+.add-button{min-width:30px; min-height:30px; background:url(bottoni.fw.png); border:0}
+.refresh-button{min-width:30px; min-height:30px; background:url(bottoni.fw.png); border:0; background-position:60px 0px}
+.refresh-button:active{min-width:30px; min-height:30px; background:url(bottoni.fw.png); border:0; background-position:60px 30px}
+.remove-button{min-width:30px; min-height:30px; background:url(bottoni.fw.png); border:0; background-position:30px 0px}
+.remove-button:active{min-width:30px; min-height:30px; background:url(bottoni.fw.png); border:0; background-position:30px 30px}
+
+.clear {clear:both; display:block; float:none}
+
+
+.oppure{font-size:2.5em; margin-bottom:20px}
+#cassetta-vuota {}
+#cassetta-vuota form{text-align:center}
+.div-33{width:33%}
+.div-33 img {width:90%}
+.div-66{width:66%;} 
+
+#num-prodotti {margin-top:30px; font-size:1.4em}
+#prodotti-aggiunti{min-height:300px}
+
+input.qt-prodotto{width:30px; height:85%; margin:0; padding:0; font-size:0.7em; padding-left:5px;}
+
+
+    table.mia_tabella{overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		width:90%;
+		margin:auto 0;
+                margin-top:50px;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    table.mia_tabella form {padding:0; margin:0; border:0}
+    
+    table.mia_tabella th, table.mia_tabella td {padding:15px; text-align:center;}
+    table.mia_tabella td{font-size:0.9em; padding: 4px}
+    
+    table.mia_tabella th {padding-top:15px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+	
+    table.mia_tabella td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+	
+
+    table.mia_tabella tr.odd-row td {background:#f6f6f6;}
+	
+	table.mia_tabella td.first, table.mia_tabella th.first {text-align:left}
+	
+	table.mia_tabella td.last {border-right:none;}
+	
+	/*
+	Background gradients are completely unnecessary but a neat effect.
+	*/
+	
+	table.mia_tabella td {
+		background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+	}
+	
+	table.mia_tabella tr.odd-row td {
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+	}
+	
+	table.mia_tabella th {
+		background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+		background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+	}
+	
+	/*
+	I know this is annoying, but we need additional styling so webkit will recognize rounded corners on background elements.
+	Nice write up of this issue: http://www.onenaught.com/posts/266/css-inner-elements-breaking-border-radius
+	
+	And, since we've applied the background colors to td/th element because of IE, Gecko browsers also need it.
+	*/
+	
+	table.mia_tabella tr:first-child th.first {
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+	
+	table.mia_tabella tr:first-child th.last {
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+	
+	table.mia_tabella tr:last-child td.first {
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+	
+	table.mia_tabella tr:last-child td.last {
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+	}
